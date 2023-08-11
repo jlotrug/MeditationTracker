@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Meditation_TrackerApp: App {
+    @StateObject private var meditationList = MeditationList()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(meditationList)
         }
     }
 }

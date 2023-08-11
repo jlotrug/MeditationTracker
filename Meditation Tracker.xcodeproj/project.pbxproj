@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3592CF2A81C4BB00968543 /* AddNewMeditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3592CE2A81C4BB00968543 /* AddNewMeditation.swift */; };
+		DF3593072A85BD5C00968543 /* HandleNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3593062A85BD5C00968543 /* HandleNotifications.swift */; };
+		DF3593092A86BABF00968543 /* ScheduleReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3593082A86BABF00968543 /* ScheduleReminder.swift */; };
 		DF61566E2A6C978B00DAC1E7 /* Meditation_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61566D2A6C978B00DAC1E7 /* Meditation_TrackerApp.swift */; };
 		DF6156702A6C978B00DAC1E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61566F2A6C978B00DAC1E7 /* ContentView.swift */; };
 		DF6156722A6C978F00DAC1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6156712A6C978F00DAC1E7 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 		DF61567F2A6C979000DAC1E7 /* Meditation_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61567E2A6C979000DAC1E7 /* Meditation_TrackerTests.swift */; };
 		DF6156892A6C979000DAC1E7 /* Meditation_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6156882A6C979000DAC1E7 /* Meditation_TrackerUITests.swift */; };
 		DF61568B2A6C979000DAC1E7 /* Meditation_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61568A2A6C979000DAC1E7 /* Meditation_TrackerUITestsLaunchTests.swift */; };
+		DF6156982A6C9AB000DAC1E7 /* Meditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6156972A6C9AB000DAC1E7 /* Meditation.swift */; };
+		DF61569A2A6D7C8800DAC1E7 /* DBFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6156992A6D7C8800DAC1E7 /* DBFunctions.swift */; };
+		DF61569C2A6D8C9000DAC1E7 /* EditMeditation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61569B2A6D8C9000DAC1E7 /* EditMeditation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF3592CE2A81C4BB00968543 /* AddNewMeditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMeditation.swift; sourceTree = "<group>"; };
+		DF3593062A85BD5C00968543 /* HandleNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleNotifications.swift; sourceTree = "<group>"; };
+		DF3593082A86BABF00968543 /* ScheduleReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleReminder.swift; sourceTree = "<group>"; };
 		DF61566A2A6C978B00DAC1E7 /* Meditation Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meditation Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF61566D2A6C978B00DAC1E7 /* Meditation_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_TrackerApp.swift; sourceTree = "<group>"; };
 		DF61566F2A6C978B00DAC1E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,9 @@
 		DF6156842A6C979000DAC1E7 /* Meditation TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meditation TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6156882A6C979000DAC1E7 /* Meditation_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_TrackerUITests.swift; sourceTree = "<group>"; };
 		DF61568A2A6C979000DAC1E7 /* Meditation_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF6156972A6C9AB000DAC1E7 /* Meditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditation.swift; sourceTree = "<group>"; };
+		DF6156992A6D7C8800DAC1E7 /* DBFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBFunctions.swift; sourceTree = "<group>"; };
+		DF61569B2A6D8C9000DAC1E7 /* EditMeditation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeditation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				DF61566F2A6C978B00DAC1E7 /* ContentView.swift */,
 				DF6156712A6C978F00DAC1E7 /* Assets.xcassets */,
 				DF6156732A6C978F00DAC1E7 /* Preview Content */,
+				DF6156972A6C9AB000DAC1E7 /* Meditation.swift */,
+				DF6156992A6D7C8800DAC1E7 /* DBFunctions.swift */,
+				DF61569B2A6D8C9000DAC1E7 /* EditMeditation.swift */,
+				DF3592CE2A81C4BB00968543 /* AddNewMeditation.swift */,
+				DF3593062A85BD5C00968543 /* HandleNotifications.swift */,
+				DF3593082A86BABF00968543 /* ScheduleReminder.swift */,
 			);
 			path = "Meditation Tracker";
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6156982A6C9AB000DAC1E7 /* Meditation.swift in Sources */,
 				DF6156702A6C978B00DAC1E7 /* ContentView.swift in Sources */,
 				DF61566E2A6C978B00DAC1E7 /* Meditation_TrackerApp.swift in Sources */,
+				DF3593072A85BD5C00968543 /* HandleNotifications.swift in Sources */,
+				DF3593092A86BABF00968543 /* ScheduleReminder.swift in Sources */,
+				DF61569A2A6D7C8800DAC1E7 /* DBFunctions.swift in Sources */,
+				DF3592CF2A81C4BB00968543 /* AddNewMeditation.swift in Sources */,
+				DF61569C2A6D8C9000DAC1E7 /* EditMeditation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
