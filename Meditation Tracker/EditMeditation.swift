@@ -20,7 +20,7 @@ struct EditMeditation: View{
     @State var currentAnxietyLevelPost: String
     
     // Data for Pickers
-    let numOptions = ["1", "2", "3", "4", "5"]
+    let numOptions = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
     let durations = ["5", "10", "15", "20", "30+"]
     
     
@@ -36,7 +36,7 @@ struct EditMeditation: View{
                         .frame(width: 250)
                 }
                 VStack{
-                    Text("Anxiety Level Pre (1-5): ")
+                    Text("Anxiety Level Pre (1-10): ")
                     Picker("", selection: $currentAnxietyLevelPre){
                         ForEach(numOptions, id:\.self){ num in
                             Text(num)
@@ -45,7 +45,7 @@ struct EditMeditation: View{
                     .pickerStyle(.segmented)
                 }
                 VStack{
-                    Text("Anxiety Level Post (1-5): ")
+                    Text("Anxiety Level Post (1-10): ")
                     Picker("", selection: $currentAnxietyLevelPost){
                         ForEach(numOptions, id:\.self){ num in
                             Text(num)

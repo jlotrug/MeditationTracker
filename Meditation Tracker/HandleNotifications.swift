@@ -18,10 +18,10 @@ func scheduleNotifications(selectedDate: Date){
     content.subtitle = "Don't forget to meditate today!"
     content.sound = UNNotificationSound.default
 
-    var date = Calendar.current.dateComponents([.hour, .minute], from: selectedDate)
+    let date = Calendar.current.dateComponents([.hour, .minute], from: selectedDate)
     let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: true)
 
-    // For demonstration only
+//     For demonstration only
 //    let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 60, repeats: true)
     
     let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
